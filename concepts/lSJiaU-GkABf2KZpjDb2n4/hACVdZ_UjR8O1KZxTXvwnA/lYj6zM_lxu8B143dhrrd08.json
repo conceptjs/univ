@@ -1,0 +1,22 @@
+{
+  "uri" : "local://lYj6zM_lxu8B143dhrrd08/",
+  "name" : "Example lambda concept showing addition",
+  "category" : "eg",
+  "parent" : "local://hACVdZ_UjR8O1KZxTXvwnA/",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "a",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/"
+  }, {
+    "name" : "b",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/"
+  } ],
+  "vars" : [ {
+    "name" : "result",
+    "expr" : {
+      "script" : "return a + b;"
+    }
+  } ],
+  "isas" : [ ],
+  "isLambda" : true
+}

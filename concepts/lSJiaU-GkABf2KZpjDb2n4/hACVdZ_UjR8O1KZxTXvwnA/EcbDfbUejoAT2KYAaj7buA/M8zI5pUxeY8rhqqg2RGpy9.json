@@ -1,0 +1,33 @@
+{
+  "uri" : "local://M8zI5pUxeY8rhqqg2RGpy9/",
+  "name" : "Simple Null Test",
+  "category" : "",
+  "parent" : "local://EcbDfbUejoAT2KYAaj7buA/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "foo",
+    "expr" : {
+      "script" : "return null;"
+    }
+  }, {
+    "name" : "bar",
+    "expr" : {
+      "concept" : "local://MKakzVFFQTBKFaFJimoap6/",
+      "bindings" : { }
+    }
+  }, {
+    "name" : "baz",
+    "expr" : {
+      "concept" : "/common/core/qUyEas_wyy8VBqipYQVuHA/"
+    }
+  }, {
+    "name" : "voo",
+    "expr" : {
+      "concept" : "local://MKakzVFFQTBKFaFJimoap6/",
+      "bindings" : { }
+    }
+  } ],
+  "isas" : [ ],
+  "isLambda" : false
+}

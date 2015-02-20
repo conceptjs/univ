@@ -1,0 +1,17 @@
+{
+  "uri" : "local://MKakzVFFQTBKFaFJimoap6/",
+  "name" : "Lambda Null Test",
+  "category" : "",
+  "parent" : "local://EcbDfbUejoAT2KYAaj7buA/",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "foo",
+    "type" : "/common/core/iduwOQ2KZv8MWqamwqb6AE/",
+    "default" : {
+      "concept" : "/common/core/qUyEas_wyy8VBqipYQVuHA/"
+    }
+  } ],
+  "vars" : [ ],
+  "isas" : [ ],
+  "isLambda" : true
+}

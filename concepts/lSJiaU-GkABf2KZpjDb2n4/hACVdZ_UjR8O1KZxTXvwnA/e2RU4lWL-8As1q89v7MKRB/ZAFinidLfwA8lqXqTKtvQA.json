@@ -1,0 +1,39 @@
+{
+  "uri" : "local://ZAFinidLfwA8lqXqTKtvQA/",
+  "name" : "Programmer v1",
+  "category" : "",
+  "parent" : "local://e2RU4lWL-8As1q89v7MKRB/",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "firstName",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/"
+  }, {
+    "name" : "lastName",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/"
+  }, {
+    "name" : "hasBeard",
+    "type" : "/common/types/74mIR2uFvPAAiqCdiDkp18/",
+    "default" : {
+      "bool" : false
+    }
+  }, {
+    "name" : "bio",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "default" : {
+      "str" : "N/A"
+    }
+  } ],
+  "vars" : [ {
+    "name" : "fullName",
+    "expr" : {
+      "script" : "console.log('Calculating the full name for ' + firstName);\nreturn firstName + ' ' + lastName;"
+    }
+  } ],
+  "isas" : [ {
+    "concept" : "local://F_7ot-6UZ3Bk54p3MAAyJA/",
+    "oncVar" : "hasBeard"
+  }, {
+    "concept" : "local://W8OIzpA4Q88vwqtXvTfhLC/"
+  } ],
+  "isLambda" : true
+}

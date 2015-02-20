@@ -1,0 +1,28 @@
+{
+  "uri" : "local://E40ZSmDZ3q89eafTdvRjvC/",
+  "name" : "Course Reader",
+  "category" : "",
+  "parent" : "local://lSJiaU-GkABf2KZpjDb2n4/",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "course",
+    "type" : "local://GWUiaDKhGKAJsKG1W9fqV0/"
+  }, {
+    "name" : "readerType",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/"
+  }, {
+    "name" : "curUnitNumber",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/"
+  }, {
+    "name" : "returnUri",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "default" : {
+      "str" : ""
+    }
+  } ],
+  "vars" : [ ],
+  "isas" : [ {
+    "concept" : "local://eTJFF-_6LMBymaKsmsPttF/"
+  } ],
+  "isLambda" : true
+}

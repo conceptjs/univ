@@ -1,0 +1,32 @@
+{
+  "uri" : "local://ifIJIkAz8MBr74Pm-AKoDE/",
+  "name" : "Programmer v2",
+  "category" : "",
+  "parent" : "local://hWApMtguPa8DJKFW6cETK5/",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "firstName",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/"
+  }, {
+    "name" : "lastName",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/"
+  }, {
+    "name" : "bio",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/"
+  }, {
+    "name" : "imageUrl",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/"
+  } ],
+  "vars" : [ {
+    "name" : "fullName",
+    "expr" : {
+      "script" : "return firstName + ' ' + lastName;"
+    }
+  } ],
+  "isas" : [ {
+    "concept" : "local://sgklo11o2YAkQKY9PxovS8/"
+  }, {
+    "concept" : "local://MJEJcO98f19XvqVJoaoFb5/"
+  } ],
+  "isLambda" : true
+}
